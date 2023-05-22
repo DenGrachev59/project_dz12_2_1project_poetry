@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "project-dz12-2-1"
+version = "0.1.0"
+description = ""
+authors = ["<Grachev Den> <<2717087@mail.ru>>"]
+readme = "README.md"
+packages = [{include = "project_dz12_2_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
